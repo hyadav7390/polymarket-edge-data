@@ -28,12 +28,12 @@
     },
     "refOpenPrice": 1908.17,
     "momentum5m": -0.0016641199003621626,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "DOWN",
+    "openPrice": 1908.17,
+    "closePrice": 1906.195,
+    "pnl": 5.5
   },
   {
     "id": "BTC-1771858500000",
@@ -64,12 +64,12 @@
     },
     "refOpenPrice": 66020.5,
     "momentum5m": -0.0010627460655992058,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "DOWN",
+    "openPrice": 66020.5,
+    "closePrice": 65920,
+    "pnl": 7.1
   },
   {
     "id": "XRP-1771858500000",
@@ -100,12 +100,12 @@
     },
     "refOpenPrice": 1.38475,
     "momentum5m": -0.0022997620935765453,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "DOWN",
+    "openPrice": 1.38475,
+    "closePrice": 1.3834,
+    "pnl": 7.5
   },
   {
     "id": "BTC-1771857900000",
