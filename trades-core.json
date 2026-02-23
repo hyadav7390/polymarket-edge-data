@@ -1,5 +1,41 @@
 [
   {
+    "id": "SOL-1771854300000",
+    "createdAt": "2026-02-23T13:46:03.834Z",
+    "asset": "SOL",
+    "strategy": "core",
+    "windowMinutes": 5,
+    "binanceSymbol": "SOLUSDT",
+    "marketSlug": "sol-updown-5m-1771854300",
+    "openTime": 1771854300000,
+    "closeTime": 1771854600000,
+    "signal": "BUY_DOWN",
+    "edgeUp": -0.06274099093193543,
+    "edgeDown": 0.07274099093193542,
+    "r_t": -0.0018500246669954548,
+    "z": -1.1860438239105808,
+    "pUp": 0.11725900906806457,
+    "pDown": 0.8827409909319355,
+    "impliedUp": 0.18,
+    "impliedDown": 0.81,
+    "entryPrice": 0.81,
+    "stake": 10,
+    "refPrice": 80.93,
+    "refSources": {
+      "binance": 80.93,
+      "coinbase": 80.95,
+      "kraken": 80.91
+    },
+    "refOpenPrice": 81.08,
+    "momentum5m": 0.002229102167182747,
+    "status": "open",
+    "result": null,
+    "outcome": null,
+    "openPrice": null,
+    "closePrice": null,
+    "pnl": null
+  },
+  {
     "id": "SOL-1771854000000",
     "createdAt": "2026-02-23T13:42:03.113Z",
     "asset": "SOL",
@@ -28,11 +64,11 @@
     },
     "refOpenPrice": 80.7,
     "momentum5m": 0.0013637490701710814,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "UP",
+    "openPrice": 80.7,
+    "closePrice": 81.08,
+    "pnl": 4.5
   }
 ]
