@@ -33,7 +33,7 @@
     "outcome": "DOWN",
     "openPrice": 1868.61,
     "closePrice": 1863.86,
-    "pnl": -7.9
+    "pnl": -10
   },
   {
     "id": "SOL-1771866900000",
@@ -69,7 +69,7 @@
     "outcome": "DOWN",
     "openPrice": 78.59,
     "closePrice": 78.505,
-    "pnl": -7.800000000000001
+    "pnl": -10
   },
   {
     "id": "ETH-1771859400000",
@@ -105,7 +105,7 @@
     "outcome": "UP",
     "openPrice": 1903.35,
     "closePrice": 1903.84,
-    "pnl": 2.6
+    "pnl": 3.513513513513513
   },
   {
     "id": "SOL-1771859400000",
@@ -141,6 +141,6 @@
     "outcome": "UP",
     "openPrice": 79.91,
     "closePrice": 79.93,
-    "pnl": 2.7
+    "pnl": 3.6986301369863006
   }
 ]
