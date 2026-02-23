@@ -28,12 +28,12 @@
     },
     "refOpenPrice": 78.64,
     "momentum5m": -0.002030972328001988,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "DOWN",
+    "openPrice": 78.64,
+    "closePrice": 78.57,
+    "pnl": 4.8
   },
   {
     "id": "SOL-1771872300000",
