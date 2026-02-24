@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "id": "XRP-1771935900000",
+    "createdAt": "2026-02-24T12:28:05.018Z",
+    "asset": "XRP",
+    "strategy": "core",
+    "windowMinutes": 5,
+    "binanceSymbol": "XRPUSDT",
+    "marketSlug": "xrp-updown-5m-1771935900",
+    "openTime": 1771935900000,
+    "closeTime": 1771936200000,
+    "signal": "BUY_UP",
+    "edgeUp": 0.0976819731992814,
+    "edgeDown": -0.08768197319928145,
+    "r_t": 0.0004122351389232796,
+    "z": 0.3321488432639271,
+    "pUp": 0.6376819731992814,
+    "pDown": 0.36231802680071856,
+    "impliedUp": 0.54,
+    "impliedDown": 0.45,
+    "entryPrice": 0.54,
+    "stake": 10,
+    "confidence": 0.21235211565061177,
+    "confidenceRaw": 0.6376819731992814,
+    "refPrice": 1.33474,
+    "refSources": {
+      "binance": 1.3344,
+      "coinbase": 1.33475,
+      "kraken": 1.33474
+    },
+    "refOpenPrice": 1.33419,
+    "momentum5m": 0.0014555822328931969,
+    "status": "open",
+    "result": null,
+    "outcome": null,
+    "openPrice": null,
+    "closePrice": null,
+    "pnl": null
+  }
+]
