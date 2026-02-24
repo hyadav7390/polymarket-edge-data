@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-24T18:05:05.076Z",
-  "totalLosses": 10,
+  "generatedAt": "2026-02-24T18:06:08.114Z",
+  "totalLosses": 12,
   "buckets": [
     {
       "key": "counter_momentum",
@@ -41,22 +41,28 @@
       "label": "High entry price (expensive contracts)",
       "reason": "Entry price was high, reducing payout asymmetry.",
       "fix": "Tighten maxEntryPrice or require stronger edge before paying up.",
-      "count": 4,
-      "totalLoss": -40,
+      "count": 6,
+      "totalLoss": -60,
       "avgLoss": -10,
       "strategyCounts": {
-        "core": 2,
-        "momentum": 2
+        "core": 3,
+        "momentum": 3
       },
       "assetCounts": {
+        "ETH": 2,
         "BTC": 2,
         "SOL": 2
       },
       "assetLoss": {
+        "ETH": -20,
         "BTC": -20,
         "SOL": -20
       },
       "assetStrategyCounts": {
+        "ETH": {
+          "core": 1,
+          "momentum": 1
+        },
         "BTC": {
           "core": 1,
           "momentum": 1
@@ -67,6 +73,15 @@
         }
       },
       "examples": [
+        {
+          "id": "ETH-1771956000000",
+          "asset": "ETH",
+          "signal": "BUY_UP",
+          "entryPrice": 0.67,
+          "confidence": 0.4984991776591163,
+          "edge": 0.09930962172319346,
+          "createdAt": "2026-02-24T18:01:03.115Z"
+        },
         {
           "id": "BTC-1771945200000",
           "asset": "BTC",
@@ -84,15 +99,6 @@
           "confidence": 0.7950271444828458,
           "edge": 0.22571248646210906,
           "createdAt": "2026-02-24T13:43:03.127Z"
-        },
-        {
-          "id": "BTC-1771945200000",
-          "asset": "BTC",
-          "signal": "BUY_DOWN",
-          "entryPrice": 0.62,
-          "confidence": 0.31684633667249745,
-          "edge": 0.099906998035724,
-          "createdAt": "2026-02-24T15:01:02.317Z"
         }
       ]
     },
