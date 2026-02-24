@@ -30,12 +30,12 @@
     },
     "refOpenPrice": 63543,
     "momentum5m": 0.004037649177601428,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "UP",
+    "openPrice": 63543,
+    "closePrice": 63653.11,
+    "pnl": 4.084507042253522
   },
   {
     "id": "ETH-1771944600000",
@@ -68,12 +68,12 @@
     },
     "refOpenPrice": 1838.33,
     "momentum5m": 0.00572068014956741,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "UP",
+    "openPrice": 1838.33,
+    "closePrice": 1841.01,
+    "pnl": 2.987012987012987
   },
   {
     "id": "SOL-1771944600000",
@@ -106,12 +106,12 @@
     },
     "refOpenPrice": 77.04,
     "momentum5m": 0.0037726030961362303,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "UP",
+    "openPrice": 77.04,
+    "closePrice": 77.17,
+    "pnl": 12.222222222222223
   },
   {
     "id": "ETH-1771944000000",
