@@ -30,12 +30,12 @@
     },
     "refOpenPrice": 63276.6,
     "momentum5m": 0.0018815821748178387,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "UP",
+    "openPrice": 63276.6,
+    "closePrice": 63322,
+    "pnl": 6.666666666666668
   },
   {
     "id": "ETH-1771908000000",
@@ -68,12 +68,12 @@
     },
     "refOpenPrice": 1829.92,
     "momentum5m": 0.0019403818364934495,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "loss",
+    "outcome": "DOWN",
+    "openPrice": 1829.92,
+    "closePrice": 1829.14,
+    "pnl": -10
   },
   {
     "id": "BTC-1771907700000",
