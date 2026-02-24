@@ -30,12 +30,12 @@
     },
     "refOpenPrice": 63471.565,
     "momentum5m": -0.0027304660190327415,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "DOWN",
+    "openPrice": 63471.565,
+    "closePrice": 63264,
+    "pnl": 5.151515151515151
   },
   {
     "id": "ETH-1771905000000",
