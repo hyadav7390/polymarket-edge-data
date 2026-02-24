@@ -1,0 +1,170 @@
+{
+  "generatedAt": "2026-02-24T15:46:07.920Z",
+  "totalLosses": 10,
+  "buckets": [
+    {
+      "key": "counter_momentum",
+      "label": "Counter-momentum entries",
+      "reason": "Signal opposed the 5m momentum direction.",
+      "fix": "Require momentum alignment for core entries or add a momentum veto when it conflicts.",
+      "count": 1,
+      "totalLoss": -10,
+      "avgLoss": -10,
+      "strategyCounts": {
+        "core": 1
+      },
+      "examples": [
+        {
+          "id": "XRP-1771944600000",
+          "asset": "XRP",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.68,
+          "confidence": 0.5870193572341582,
+          "edge": 0.13002890432771275,
+          "createdAt": "2026-02-24T14:51:03.976Z"
+        }
+      ]
+    },
+    {
+      "key": "high_entry",
+      "label": "High entry price (expensive contracts)",
+      "reason": "Entry price was high, reducing payout asymmetry.",
+      "fix": "Tighten maxEntryPrice or require stronger edge before paying up.",
+      "count": 4,
+      "totalLoss": -40,
+      "avgLoss": -10,
+      "strategyCounts": {
+        "core": 2,
+        "momentum": 2
+      },
+      "examples": [
+        {
+          "id": "BTC-1771945200000",
+          "asset": "BTC",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.62,
+          "confidence": 0.34862092566447433,
+          "edge": 0.099906998035724,
+          "createdAt": "2026-02-24T15:01:02.315Z"
+        },
+        {
+          "id": "SOL-1771940400000",
+          "asset": "SOL",
+          "signal": "BUY_UP",
+          "entryPrice": 0.68,
+          "confidence": 0.7950271444828458,
+          "edge": 0.22571248646210906,
+          "createdAt": "2026-02-24T13:43:03.127Z"
+        },
+        {
+          "id": "BTC-1771945200000",
+          "asset": "BTC",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.62,
+          "confidence": 0.31684633667249745,
+          "edge": 0.099906998035724,
+          "createdAt": "2026-02-24T15:01:02.317Z"
+        }
+      ]
+    },
+    {
+      "key": "low_confidence",
+      "label": "Low confidence",
+      "reason": "Confidence below the higher-quality band.",
+      "fix": "Raise minConfidence or increase edge threshold.",
+      "count": 1,
+      "totalLoss": -10,
+      "avgLoss": -10,
+      "strategyCounts": {
+        "momentum": 1
+      },
+      "examples": [
+        {
+          "id": "BTC-1771947000000",
+          "asset": "BTC",
+          "signal": "BUY_UP",
+          "entryPrice": 0.45,
+          "confidence": 0.3427029960145193,
+          "edge": 0.28050822836595296,
+          "createdAt": "2026-02-24T15:33:02.713Z"
+        }
+      ]
+    },
+    {
+      "key": "low_z",
+      "label": "Weak move / low z-score",
+      "reason": "Underlying move was small relative to recent volatility.",
+      "fix": "Add a minZ or minMove filter for these entries.",
+      "count": 3,
+      "totalLoss": -30,
+      "avgLoss": -10,
+      "strategyCounts": {
+        "core": 2,
+        "momentum": 1
+      },
+      "examples": [
+        {
+          "id": "BTC-1771947000000",
+          "asset": "BTC",
+          "signal": "BUY_UP",
+          "entryPrice": 0.45,
+          "confidence": 0.37327494968826264,
+          "edge": 0.28050822836595296,
+          "createdAt": "2026-02-24T15:33:02.709Z"
+        },
+        {
+          "id": "BTC-1771940400000",
+          "asset": "BTC",
+          "signal": "BUY_UP",
+          "entryPrice": 0.59,
+          "confidence": 0.3930289249336702,
+          "edge": 0.14900243772147825,
+          "createdAt": "2026-02-24T13:41:02.917Z"
+        },
+        {
+          "id": "BTC-1771940400000",
+          "asset": "BTC",
+          "signal": "BUY_UP",
+          "entryPrice": 0.59,
+          "confidence": 0.36342057980848336,
+          "edge": 0.14900243772147825,
+          "createdAt": "2026-02-24T13:41:02.918Z"
+        }
+      ]
+    },
+    {
+      "key": "thin_edge",
+      "label": "Thin edge",
+      "reason": "Estimated edge was small at entry time.",
+      "fix": "Increase edge threshold or require tighter spreads / deeper books.",
+      "count": 0,
+      "totalLoss": 0,
+      "avgLoss": 0,
+      "strategyCounts": {},
+      "examples": []
+    },
+    {
+      "key": "other",
+      "label": "Other / noise",
+      "reason": "Loss not captured by a dominant heuristic.",
+      "fix": "Consider time-based confirmation or reduce size in choppy regimes.",
+      "count": 1,
+      "totalLoss": -10,
+      "avgLoss": -10,
+      "strategyCounts": {
+        "core": 1
+      },
+      "examples": [
+        {
+          "id": "BTC-1771946400000",
+          "asset": "BTC",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.57,
+          "confidence": 0.8652350215479735,
+          "edge": 0.37205105926562865,
+          "createdAt": "2026-02-24T15:22:02.416Z"
+        }
+      ]
+    }
+  ]
+}
