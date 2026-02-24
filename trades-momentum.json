@@ -30,12 +30,12 @@
     },
     "refOpenPrice": 76.975,
     "momentum5m": -0.00252819914430174,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "loss",
+    "outcome": "UP",
+    "openPrice": 76.975,
+    "closePrice": 76.99,
+    "pnl": -10
   },
   {
     "id": "BTC-1771917600000",
