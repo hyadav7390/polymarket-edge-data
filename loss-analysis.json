@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-24T15:52:03.536Z",
+  "generatedAt": "2026-02-24T15:53:05.341Z",
   "totalLosses": 10,
   "buckets": [
     {
@@ -12,6 +12,17 @@
       "avgLoss": -10,
       "strategyCounts": {
         "core": 1
+      },
+      "assetCounts": {
+        "XRP": 1
+      },
+      "assetLoss": {
+        "XRP": -10
+      },
+      "assetStrategyCounts": {
+        "XRP": {
+          "core": 1
+        }
       },
       "examples": [
         {
@@ -36,6 +47,24 @@
       "strategyCounts": {
         "core": 2,
         "momentum": 2
+      },
+      "assetCounts": {
+        "BTC": 2,
+        "SOL": 2
+      },
+      "assetLoss": {
+        "BTC": -20,
+        "SOL": -20
+      },
+      "assetStrategyCounts": {
+        "BTC": {
+          "core": 1,
+          "momentum": 1
+        },
+        "SOL": {
+          "core": 1,
+          "momentum": 1
+        }
       },
       "examples": [
         {
@@ -78,6 +107,17 @@
       "strategyCounts": {
         "momentum": 1
       },
+      "assetCounts": {
+        "BTC": 1
+      },
+      "assetLoss": {
+        "BTC": -10
+      },
+      "assetStrategyCounts": {
+        "BTC": {
+          "momentum": 1
+        }
+      },
       "examples": [
         {
           "id": "BTC-1771947000000",
@@ -101,6 +141,18 @@
       "strategyCounts": {
         "core": 2,
         "momentum": 1
+      },
+      "assetCounts": {
+        "BTC": 3
+      },
+      "assetLoss": {
+        "BTC": -30
+      },
+      "assetStrategyCounts": {
+        "BTC": {
+          "core": 2,
+          "momentum": 1
+        }
       },
       "examples": [
         {
@@ -141,6 +193,9 @@
       "totalLoss": 0,
       "avgLoss": 0,
       "strategyCounts": {},
+      "assetCounts": {},
+      "assetLoss": {},
+      "assetStrategyCounts": {},
       "examples": []
     },
     {
@@ -153,6 +208,17 @@
       "avgLoss": -10,
       "strategyCounts": {
         "core": 1
+      },
+      "assetCounts": {
+        "BTC": 1
+      },
+      "assetLoss": {
+        "BTC": -10
+      },
+      "assetStrategyCounts": {
+        "BTC": {
+          "core": 1
+        }
       },
       "examples": [
         {
