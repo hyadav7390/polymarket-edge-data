@@ -30,12 +30,12 @@
     },
     "refOpenPrice": 63199.3,
     "momentum5m": -0.0021542619995860665,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "loss",
+    "outcome": "UP",
+    "openPrice": 63199.3,
+    "closePrice": 63214.8,
+    "pnl": -10
   },
   {
     "id": "ETH-1771917600000",
@@ -68,12 +68,12 @@
     },
     "refOpenPrice": 1823.64,
     "momentum5m": -0.0024268192252235687,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "loss",
+    "outcome": "UP",
+    "openPrice": 1823.64,
+    "closePrice": 1825.24,
+    "pnl": -10
   },
   {
     "id": "XRP-1771917600000",
@@ -106,12 +106,12 @@
     },
     "refOpenPrice": 1.32717,
     "momentum5m": -0.0033147925435959296,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "DOWN",
+    "openPrice": 1.32717,
+    "closePrice": 1.32715,
+    "pnl": 9.23076923076923
   },
   {
     "id": "XRP-1771916100000",
