@@ -30,11 +30,11 @@
     },
     "refOpenPrice": 1.33419,
     "momentum5m": 0.0014555822328931969,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "UP",
+    "openPrice": 1.33419,
+    "closePrice": 1.33564,
+    "pnl": 8.518518518518515
   }
 ]
