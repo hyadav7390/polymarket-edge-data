@@ -1,30 +1,44 @@
 {
-  "generatedAt": "2026-02-25T00:45:06.767Z",
-  "totalLosses": 12,
+  "generatedAt": "2026-02-25T00:46:06.192Z",
+  "totalLosses": 13,
   "buckets": [
     {
       "key": "counter_momentum",
       "label": "Counter-momentum entries",
       "reason": "Signal opposed the 5m momentum direction.",
       "fix": "Require momentum alignment for core entries or add a momentum veto when it conflicts.",
-      "count": 1,
-      "totalLoss": -10,
+      "count": 2,
+      "totalLoss": -20,
       "avgLoss": -10,
       "strategyCounts": {
-        "core": 1
+        "core": 2
       },
       "assetCounts": {
+        "SOL": 1,
         "XRP": 1
       },
       "assetLoss": {
+        "SOL": -10,
         "XRP": -10
       },
       "assetStrategyCounts": {
+        "SOL": {
+          "core": 1
+        },
         "XRP": {
           "core": 1
         }
       },
       "examples": [
+        {
+          "id": "SOL-1771980000000",
+          "asset": "SOL",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.57,
+          "confidence": 0.22295618360435226,
+          "edge": 0.07255984445800212,
+          "createdAt": "2026-02-25T00:43:08.996Z"
+        },
         {
           "id": "XRP-1771944600000",
           "asset": "XRP",
