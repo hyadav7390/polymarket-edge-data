@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-25T17:10:05.617Z",
+  "generatedAt": "2026-02-25T17:11:08.234Z",
   "totals": {
     "losses": 41,
-    "wins": 92
+    "wins": 94
   },
   "lossBuckets": [
     {
@@ -342,26 +342,30 @@
       "label": "Momentum-aligned wins",
       "reason": "Signal moved with the 5m momentum direction.",
       "fix": "Prioritize momentum alignment for higher conviction entries.",
-      "count": 77,
-      "totalPnl": 789.3175323551721,
-      "avgPnl": 10.250877043573665,
+      "count": 79,
+      "totalPnl": 797.4865464396793,
+      "avgPnl": 10.094766410628852,
       "strategyCounts": {
-        "core": 43,
-        "momentum": 34
+        "core": 44,
+        "momentum": 35
       },
       "assetCounts": {
+        "ETH": 25,
         "BTC": 15,
         "SOL": 24,
-        "ETH": 23,
         "XRP": 15
       },
       "assetPnl": {
+        "ETH": 117.62525339548431,
         "BTC": 102.72142547093483,
         "SOL": 488.80101930778386,
-        "ETH": 109.45623931097727,
         "XRP": 88.33884826547619
       },
       "assetStrategyCounts": {
+        "ETH": {
+          "core": 15,
+          "momentum": 10
+        },
         "BTC": {
           "core": 9,
           "momentum": 6
@@ -370,16 +374,21 @@
           "core": 12,
           "momentum": 12
         },
-        "ETH": {
-          "core": 14,
-          "momentum": 9
-        },
         "XRP": {
           "core": 8,
           "momentum": 7
         }
       },
       "examples": [
+        {
+          "id": "ETH-1772039100000",
+          "asset": "ETH",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.71,
+          "confidence": 0.5652817558494906,
+          "edge": 0.09002960769076573,
+          "createdAt": "2026-02-25T17:08:03.506Z"
+        },
         {
           "id": "BTC-1772036400000",
           "asset": "BTC",
@@ -397,15 +406,6 @@
           "confidence": 0.2385127649378912,
           "edge": 0.19971587187142997,
           "createdAt": "2026-02-25T16:21:04.667Z"
-        },
-        {
-          "id": "ETH-1772036100000",
-          "asset": "ETH",
-          "signal": "BUY_UP",
-          "entryPrice": 0.68,
-          "confidence": 0.5494096887712234,
-          "edge": 0.11272845683476274,
-          "createdAt": "2026-02-25T16:17:03.344Z"
         }
       ]
     },
