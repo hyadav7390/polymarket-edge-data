@@ -30,12 +30,12 @@
     },
     "refOpenPrice": 79.16,
     "momentum5m": 0.0010754728917569173,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "loss",
+    "outcome": "UP",
+    "openPrice": 79.16,
+    "closePrice": 79.235,
+    "pnl": -10
   },
   {
     "id": "XRP-1771956900000",
