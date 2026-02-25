@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-25T13:00:04.983Z",
+  "generatedAt": "2026-02-25T13:01:07.913Z",
   "totals": {
     "losses": 29,
-    "wins": 70
+    "wins": 71
   },
   "lossBuckets": [
     {
@@ -407,27 +407,27 @@
       "label": "High confidence",
       "reason": "Confidence was in the top band.",
       "fix": "Scale up entries that clear the high-confidence band.",
-      "count": 6,
-      "totalPnl": 23.3814732639897,
-      "avgPnl": 3.8969122106649503,
+      "count": 7,
+      "totalPnl": 27.46598030624322,
+      "avgPnl": 3.92371147232046,
       "strategyCounts": {
-        "core": 6
+        "core": 7
       },
       "assetCounts": {
-        "ETH": 3,
+        "ETH": 4,
         "XRP": 1,
         "SOL": 1,
         "BTC": 1
       },
       "assetPnl": {
-        "ETH": 11.178396747187696,
+        "ETH": 15.262903789441218,
         "XRP": 4.705882352941176,
         "SOL": 2.3456790123456783,
         "BTC": 5.151515151515151
       },
       "assetStrategyCounts": {
         "ETH": {
-          "core": 3
+          "core": 4
         },
         "XRP": {
           "core": 1
@@ -440,6 +440,15 @@
         }
       },
       "examples": [
+        {
+          "id": "ETH-1772024100000",
+          "asset": "ETH",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.71,
+          "confidence": 0.5997576957404028,
+          "edge": 0.10588854004058534,
+          "createdAt": "2026-02-25T12:57:03.837Z"
+        },
         {
           "id": "ETH-1772009700000",
           "asset": "ETH",
@@ -457,15 +466,6 @@
           "confidence": 0.6342721983002697,
           "edge": 0.06176521121812406,
           "createdAt": "2026-02-25T01:47:03.342Z"
-        },
-        {
-          "id": "XRP-1771945200000",
-          "asset": "XRP",
-          "signal": "BUY_UP",
-          "entryPrice": 0.68,
-          "confidence": 0.7130460046593841,
-          "edge": 0.18800116214331664,
-          "createdAt": "2026-02-24T15:02:03.708Z"
         }
       ]
     },
