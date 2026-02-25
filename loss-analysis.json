@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-25T12:30:05.418Z",
+  "generatedAt": "2026-02-25T12:31:07.104Z",
   "totals": {
     "losses": 24,
-    "wins": 68
+    "wins": 69
   },
   "lossBuckets": [
     {
@@ -545,14 +545,34 @@
       "label": "Other / noise",
       "reason": "Win not captured by a dominant heuristic.",
       "fix": "Track these cases; may suggest new buckets or regime cues.",
-      "count": 0,
-      "totalPnl": 0,
-      "avgPnl": 0,
-      "strategyCounts": {},
-      "assetCounts": {},
-      "assetPnl": {},
-      "assetStrategyCounts": {},
-      "examples": []
+      "count": 1,
+      "totalPnl": 6.666666666666668,
+      "avgPnl": 6.666666666666668,
+      "strategyCounts": {
+        "core": 1
+      },
+      "assetCounts": {
+        "SOL": 1
+      },
+      "assetPnl": {
+        "SOL": 6.666666666666668
+      },
+      "assetStrategyCounts": {
+        "SOL": {
+          "core": 1
+        }
+      },
+      "examples": [
+        {
+          "id": "SOL-1772022300000",
+          "asset": "SOL",
+          "signal": "BUY_UP",
+          "entryPrice": 0.6,
+          "confidence": 0.23847959308612868,
+          "edge": 0.04970061281961924,
+          "createdAt": "2026-02-25T12:28:05.331Z"
+        }
+      ]
     }
   ]
 }
