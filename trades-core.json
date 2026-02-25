@@ -30,12 +30,12 @@
     },
     "refOpenPrice": 1916.48,
     "momentum5m": -0.0016999885276847778,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "DOWN",
+    "openPrice": 1916.48,
+    "closePrice": 1912.76,
+    "pnl": 8.867924528301884
   },
   {
     "id": "SOL-1771982700000",
@@ -68,12 +68,12 @@
     },
     "refOpenPrice": 82.04,
     "momentum5m": 0.0035404712489318308,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "UP",
+    "openPrice": 82.04,
+    "closePrice": 82.14,
+    "pnl": 2.5
   },
   {
     "id": "BTC-1771982100000",
