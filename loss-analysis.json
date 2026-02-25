@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-25T19:50:05.975Z",
+  "generatedAt": "2026-02-25T19:51:09.890Z",
   "totals": {
     "losses": 51,
-    "wins": 112
+    "wins": 114
   },
   "lossBuckets": [
     {
@@ -347,29 +347,29 @@
       "label": "Momentum-aligned wins",
       "reason": "Signal moved with the 5m momentum direction.",
       "fix": "Prioritize momentum alignment for higher conviction entries.",
-      "count": 92,
-      "totalPnl": 873.4783013098964,
-      "avgPnl": 9.494329362064091,
+      "count": 94,
+      "totalPnl": 881.2560790876743,
+      "avgPnl": 9.375064671145472,
       "strategyCounts": {
-        "core": 52,
-        "momentum": 40
+        "core": 53,
+        "momentum": 41
       },
       "assetCounts": {
-        "ETH": 30,
+        "ETH": 32,
         "BTC": 16,
         "XRP": 18,
         "SOL": 28
       },
       "assetPnl": {
-        "ETH": 144.90699942723032,
+        "ETH": 152.6847772050081,
         "BTC": 113.99802121561568,
         "XRP": 104.2337998208051,
         "SOL": 510.33948084624535
       },
       "assetStrategyCounts": {
         "ETH": {
-          "core": 18,
-          "momentum": 12
+          "core": 19,
+          "momentum": 13
         },
         "BTC": {
           "core": 10,
@@ -385,6 +385,15 @@
         }
       },
       "examples": [
+        {
+          "id": "ETH-1772048700000",
+          "asset": "ETH",
+          "signal": "BUY_UP",
+          "entryPrice": 0.72,
+          "confidence": 0.5619243159892846,
+          "edge": 0.07848518535507099,
+          "createdAt": "2026-02-25T19:48:03.826Z"
+        },
         {
           "id": "ETH-1772046600000",
           "asset": "ETH",
@@ -402,15 +411,6 @@
           "confidence": 0.4399491864661883,
           "edge": 0.11237662577444663,
           "createdAt": "2026-02-25T19:06:05.084Z"
-        },
-        {
-          "id": "BTC-1772046300000",
-          "asset": "BTC",
-          "signal": "BUY_DOWN",
-          "entryPrice": 0.47,
-          "confidence": 0.28904565723003883,
-          "edge": 0.22428963260891677,
-          "createdAt": "2026-02-25T19:08:03.412Z"
         }
       ]
     },
