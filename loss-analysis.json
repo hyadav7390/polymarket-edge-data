@@ -1,27 +1,37 @@
 {
-  "generatedAt": "2026-02-25T01:20:05.442Z",
-  "totalLosses": 15,
+  "generatedAt": "2026-02-25T01:21:06.204Z",
+  "totalLosses": 17,
   "buckets": [
     {
       "key": "counter_momentum",
       "label": "Counter-momentum entries",
       "reason": "Signal opposed the 5m momentum direction.",
       "fix": "Require momentum alignment for core entries or add a momentum veto when it conflicts.",
-      "count": 2,
-      "totalLoss": -20,
+      "count": 4,
+      "totalLoss": -40,
       "avgLoss": -10,
       "strategyCounts": {
-        "core": 2
+        "core": 4
       },
       "assetCounts": {
+        "BTC": 1,
+        "ETH": 1,
         "SOL": 1,
         "XRP": 1
       },
       "assetLoss": {
+        "BTC": -10,
+        "ETH": -10,
         "SOL": -10,
         "XRP": -10
       },
       "assetStrategyCounts": {
+        "BTC": {
+          "core": 1
+        },
+        "ETH": {
+          "core": 1
+        },
         "SOL": {
           "core": 1
         },
@@ -31,6 +41,24 @@
       },
       "examples": [
         {
+          "id": "BTC-1771982100000",
+          "asset": "BTC",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.75,
+          "confidence": 0.7504721323898895,
+          "edge": 0.14270301692765253,
+          "createdAt": "2026-02-25T01:16:03.108Z"
+        },
+        {
+          "id": "ETH-1771982100000",
+          "asset": "ETH",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.68,
+          "confidence": 0.6988477701859368,
+          "edge": 0.1814699742855309,
+          "createdAt": "2026-02-25T01:16:03.562Z"
+        },
+        {
           "id": "SOL-1771980000000",
           "asset": "SOL",
           "signal": "BUY_DOWN",
@@ -38,15 +66,6 @@
           "confidence": 0.22295618360435226,
           "edge": 0.07255984445800212,
           "createdAt": "2026-02-25T00:43:08.996Z"
-        },
-        {
-          "id": "XRP-1771944600000",
-          "asset": "XRP",
-          "signal": "BUY_DOWN",
-          "entryPrice": 0.68,
-          "confidence": 0.5870193572341582,
-          "edge": 0.13002890432771275,
-          "createdAt": "2026-02-24T14:51:03.976Z"
         }
       ]
     },
