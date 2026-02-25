@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-25T19:15:04.874Z",
+  "generatedAt": "2026-02-25T19:16:08.413Z",
   "totals": {
-    "losses": 49,
-    "wins": 110
+    "losses": 50,
+    "wins": 112
   },
   "lossBuckets": [
     {
@@ -219,22 +219,27 @@
       "label": "Weak move / low z-score",
       "reason": "Underlying move was small relative to recent volatility.",
       "fix": "Add a minZ or minMove filter for these entries.",
-      "count": 6,
-      "totalPnl": -60,
+      "count": 7,
+      "totalPnl": -70,
       "avgPnl": -10,
       "strategyCounts": {
-        "core": 4,
+        "core": 5,
         "momentum": 2
       },
       "assetCounts": {
+        "SOL": 1,
         "BTC": 5,
         "XRP": 1
       },
       "assetPnl": {
+        "SOL": -10,
         "BTC": -50,
         "XRP": -10
       },
       "assetStrategyCounts": {
+        "SOL": {
+          "core": 1
+        },
         "BTC": {
           "core": 3,
           "momentum": 2
@@ -244,6 +249,15 @@
         }
       },
       "examples": [
+        {
+          "id": "SOL-1772046600000",
+          "asset": "SOL",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.52,
+          "confidence": 0.4011891794675977,
+          "edge": 0.20454702255509494,
+          "createdAt": "2026-02-25T19:13:03.745Z"
+        },
         {
           "id": "BTC-1772032500000",
           "asset": "BTC",
@@ -261,15 +275,6 @@
           "confidence": 0.4097215543331358,
           "edge": 0.2584719149932425,
           "createdAt": "2026-02-25T12:38:05.120Z"
-        },
-        {
-          "id": "BTC-1771947000000",
-          "asset": "BTC",
-          "signal": "BUY_UP",
-          "entryPrice": 0.45,
-          "confidence": 0.37327494968826264,
-          "edge": 0.28050822836595296,
-          "createdAt": "2026-02-24T15:33:02.709Z"
         }
       ]
     },
@@ -342,29 +347,29 @@
       "label": "Momentum-aligned wins",
       "reason": "Signal moved with the 5m momentum direction.",
       "fix": "Prioritize momentum alignment for higher conviction entries.",
-      "count": 90,
-      "totalPnl": 862.2283013098966,
-      "avgPnl": 9.580314458998851,
+      "count": 92,
+      "totalPnl": 873.4783013098964,
+      "avgPnl": 9.494329362064091,
       "strategyCounts": {
-        "core": 51,
-        "momentum": 39
+        "core": 52,
+        "momentum": 40
       },
       "assetCounts": {
-        "ETH": 28,
+        "ETH": 30,
         "BTC": 16,
         "XRP": 18,
         "SOL": 28
       },
       "assetPnl": {
-        "ETH": 133.65699942723032,
+        "ETH": 144.90699942723032,
         "BTC": 113.99802121561568,
         "XRP": 104.2337998208051,
         "SOL": 510.33948084624535
       },
       "assetStrategyCounts": {
         "ETH": {
-          "core": 17,
-          "momentum": 11
+          "core": 18,
+          "momentum": 12
         },
         "BTC": {
           "core": 10,
@@ -380,6 +385,15 @@
         }
       },
       "examples": [
+        {
+          "id": "ETH-1772046600000",
+          "asset": "ETH",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.64,
+          "confidence": 0.4450399734805126,
+          "edge": 0.10471838780103582,
+          "createdAt": "2026-02-25T19:11:06.084Z"
+        },
         {
           "id": "ETH-1772046300000",
           "asset": "ETH",
@@ -397,15 +411,6 @@
           "confidence": 0.28904565723003883,
           "edge": 0.22428963260891677,
           "createdAt": "2026-02-25T19:08:03.412Z"
-        },
-        {
-          "id": "XRP-1772045100000",
-          "asset": "XRP",
-          "signal": "BUY_DOWN",
-          "entryPrice": 0.74,
-          "confidence": 0.5764879368851149,
-          "edge": 0.06518445096715286,
-          "createdAt": "2026-02-25T18:47:05.084Z"
         }
       ]
     },
