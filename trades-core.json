@@ -30,12 +30,12 @@
     },
     "refOpenPrice": 1931.16,
     "momentum5m": 0.006961487757473386,
-    "status": "open",
-    "result": null,
-    "outcome": null,
-    "openPrice": null,
-    "closePrice": null,
-    "pnl": null
+    "status": "resolved",
+    "result": "win",
+    "outcome": "UP",
+    "openPrice": 1931.16,
+    "closePrice": 1934.9,
+    "pnl": 9.607843137254902
   },
   {
     "id": "SOL-1771985100000",
