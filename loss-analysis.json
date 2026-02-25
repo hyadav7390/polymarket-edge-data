@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-25T21:00:05.805Z",
+  "generatedAt": "2026-02-25T21:01:10.145Z",
   "totals": {
-    "losses": 51,
+    "losses": 53,
     "wins": 119
   },
   "lossBuckets": [
@@ -77,33 +77,33 @@
       "label": "High entry price (expensive contracts)",
       "reason": "Entry price was high, reducing payout asymmetry.",
       "fix": "Tighten maxEntryPrice or require stronger edge before paying up.",
-      "count": 19,
-      "totalPnl": -190,
+      "count": 21,
+      "totalPnl": -210,
       "avgPnl": -10,
       "strategyCounts": {
-        "core": 12,
-        "momentum": 7
+        "core": 13,
+        "momentum": 8
       },
       "assetCounts": {
+        "ETH": 9,
         "BTC": 5,
-        "ETH": 7,
         "XRP": 3,
         "SOL": 4
       },
       "assetPnl": {
+        "ETH": -90,
         "BTC": -50,
-        "ETH": -70,
         "XRP": -30,
         "SOL": -40
       },
       "assetStrategyCounts": {
+        "ETH": {
+          "core": 5,
+          "momentum": 4
+        },
         "BTC": {
           "core": 3,
           "momentum": 2
-        },
-        "ETH": {
-          "core": 4,
-          "momentum": 3
         },
         "XRP": {
           "core": 2,
@@ -115,6 +115,15 @@
         }
       },
       "examples": [
+        {
+          "id": "ETH-1772052900000",
+          "asset": "ETH",
+          "signal": "BUY_UP",
+          "entryPrice": 0.65,
+          "confidence": 0.5852105746945775,
+          "edge": 0.15919686435950564,
+          "createdAt": "2026-02-25T20:57:04.758Z"
+        },
         {
           "id": "BTC-1772046900000",
           "asset": "BTC",
@@ -132,15 +141,6 @@
           "confidence": 0.5074395351151144,
           "edge": 0.05342218615295269,
           "createdAt": "2026-02-25T18:46:03.669Z"
-        },
-        {
-          "id": "XRP-1772042700000",
-          "asset": "XRP",
-          "signal": "BUY_DOWN",
-          "entryPrice": 0.6,
-          "confidence": 0.22832087349940228,
-          "edge": 0.04502760180972509,
-          "createdAt": "2026-02-25T18:06:05.083Z"
         }
       ]
     },
