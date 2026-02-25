@@ -1,15 +1,18 @@
 {
-  "generatedAt": "2026-02-25T03:54:04.450Z",
-  "totalLosses": 17,
-  "buckets": [
+  "generatedAt": "2026-02-25T03:55:05.231Z",
+  "totals": {
+    "losses": 17,
+    "wins": 60
+  },
+  "lossBuckets": [
     {
       "key": "counter_momentum",
       "label": "Counter-momentum entries",
       "reason": "Signal opposed the 5m momentum direction.",
       "fix": "Require momentum alignment for core entries or add a momentum veto when it conflicts.",
       "count": 4,
-      "totalLoss": -40,
-      "avgLoss": -10,
+      "totalPnl": -40,
+      "avgPnl": -10,
       "strategyCounts": {
         "core": 4
       },
@@ -19,7 +22,7 @@
         "SOL": 1,
         "XRP": 1
       },
-      "assetLoss": {
+      "assetPnl": {
         "BTC": -10,
         "ETH": -10,
         "SOL": -10,
@@ -75,8 +78,8 @@
       "reason": "Entry price was high, reducing payout asymmetry.",
       "fix": "Tighten maxEntryPrice or require stronger edge before paying up.",
       "count": 8,
-      "totalLoss": -80,
-      "avgLoss": -10,
+      "totalPnl": -80,
+      "avgPnl": -10,
       "strategyCounts": {
         "core": 4,
         "momentum": 4
@@ -86,7 +89,7 @@
         "ETH": 2,
         "SOL": 2
       },
-      "assetLoss": {
+      "assetPnl": {
         "BTC": -40,
         "ETH": -20,
         "SOL": -20
@@ -141,15 +144,15 @@
       "reason": "Confidence below the higher-quality band.",
       "fix": "Raise minConfidence or increase edge threshold.",
       "count": 1,
-      "totalLoss": -10,
-      "avgLoss": -10,
+      "totalPnl": -10,
+      "avgPnl": -10,
       "strategyCounts": {
         "momentum": 1
       },
       "assetCounts": {
         "BTC": 1
       },
-      "assetLoss": {
+      "assetPnl": {
         "BTC": -10
       },
       "assetStrategyCounts": {
@@ -175,8 +178,8 @@
       "reason": "Underlying move was small relative to recent volatility.",
       "fix": "Add a minZ or minMove filter for these entries.",
       "count": 3,
-      "totalLoss": -30,
-      "avgLoss": -10,
+      "totalPnl": -30,
+      "avgPnl": -10,
       "strategyCounts": {
         "core": 2,
         "momentum": 1
@@ -184,7 +187,7 @@
       "assetCounts": {
         "BTC": 3
       },
-      "assetLoss": {
+      "assetPnl": {
         "BTC": -30
       },
       "assetStrategyCounts": {
@@ -229,11 +232,11 @@
       "reason": "Estimated edge was small at entry time.",
       "fix": "Increase edge threshold or require tighter spreads / deeper books.",
       "count": 0,
-      "totalLoss": 0,
-      "avgLoss": 0,
+      "totalPnl": 0,
+      "avgPnl": 0,
       "strategyCounts": {},
       "assetCounts": {},
-      "assetLoss": {},
+      "assetPnl": {},
       "assetStrategyCounts": {},
       "examples": []
     },
@@ -243,15 +246,15 @@
       "reason": "Loss not captured by a dominant heuristic.",
       "fix": "Consider time-based confirmation or reduce size in choppy regimes.",
       "count": 1,
-      "totalLoss": -10,
-      "avgLoss": -10,
+      "totalPnl": -10,
+      "avgPnl": -10,
       "strategyCounts": {
         "core": 1
       },
       "assetCounts": {
         "BTC": 1
       },
-      "assetLoss": {
+      "assetPnl": {
         "BTC": -10
       },
       "assetStrategyCounts": {
@@ -270,6 +273,251 @@
           "createdAt": "2026-02-24T15:22:02.416Z"
         }
       ]
+    }
+  ],
+  "winBuckets": [
+    {
+      "key": "momentum_aligned",
+      "label": "Momentum-aligned wins",
+      "reason": "Signal moved with the 5m momentum direction.",
+      "fix": "Prioritize momentum alignment for higher conviction entries.",
+      "count": 51,
+      "totalPnl": 259.78055489216433,
+      "avgPnl": 5.093736370434595,
+      "strategyCounts": {
+        "core": 28,
+        "momentum": 23
+      },
+      "assetCounts": {
+        "ETH": 16,
+        "BTC": 10,
+        "SOL": 18,
+        "XRP": 7
+      },
+      "assetPnl": {
+        "ETH": 73.51280361521958,
+        "BTC": 75.66514841465776,
+        "SOL": 74.50582859468278,
+        "XRP": 36.09677426760423
+      },
+      "assetStrategyCounts": {
+        "ETH": {
+          "core": 9,
+          "momentum": 7
+        },
+        "BTC": {
+          "core": 6,
+          "momentum": 4
+        },
+        "SOL": {
+          "core": 9,
+          "momentum": 9
+        },
+        "XRP": {
+          "core": 4,
+          "momentum": 3
+        }
+      },
+      "examples": [
+        {
+          "id": "ETH-1771985400000",
+          "asset": "ETH",
+          "signal": "BUY_UP",
+          "entryPrice": 0.51,
+          "confidence": 0.21491577421102243,
+          "edge": 0.12886125613707033,
+          "createdAt": "2026-02-25T02:11:02.782Z"
+        },
+        {
+          "id": "BTC-1771983600000",
+          "asset": "BTC",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.61,
+          "confidence": 0.3256866495629154,
+          "edge": 0.10004525931205366,
+          "createdAt": "2026-02-25T01:41:02.504Z"
+        },
+        {
+          "id": "SOL-1771983600000",
+          "asset": "SOL",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.74,
+          "confidence": 0.581575187282091,
+          "edge": 0.06752458614976187,
+          "createdAt": "2026-02-25T01:42:03.184Z"
+        }
+      ]
+    },
+    {
+      "key": "low_entry",
+      "label": "Low entry price (cheap contracts)",
+      "reason": "Lower entry price improved payout asymmetry.",
+      "fix": "Keep maxEntryPrice conservative to preserve payoff skew.",
+      "count": 0,
+      "totalPnl": 0,
+      "avgPnl": 0,
+      "strategyCounts": {},
+      "assetCounts": {},
+      "assetPnl": {},
+      "assetStrategyCounts": {},
+      "examples": []
+    },
+    {
+      "key": "high_confidence",
+      "label": "High confidence",
+      "reason": "Confidence was in the top band.",
+      "fix": "Scale up entries that clear the high-confidence band.",
+      "count": 5,
+      "totalPnl": 18.888719640801295,
+      "avgPnl": 3.777743928160259,
+      "strategyCounts": {
+        "core": 5
+      },
+      "assetCounts": {
+        "ETH": 2,
+        "XRP": 1,
+        "SOL": 1,
+        "BTC": 1
+      },
+      "assetPnl": {
+        "ETH": 6.685643123999288,
+        "XRP": 4.705882352941176,
+        "SOL": 2.3456790123456783,
+        "BTC": 5.151515151515151
+      },
+      "assetStrategyCounts": {
+        "ETH": {
+          "core": 2
+        },
+        "XRP": {
+          "core": 1
+        },
+        "SOL": {
+          "core": 1
+        },
+        "BTC": {
+          "core": 1
+        }
+      },
+      "examples": [
+        {
+          "id": "ETH-1771983900000",
+          "asset": "ETH",
+          "signal": "BUY_UP",
+          "entryPrice": 0.77,
+          "confidence": 0.6342721983002697,
+          "edge": 0.06176521121812406,
+          "createdAt": "2026-02-25T01:47:03.342Z"
+        },
+        {
+          "id": "XRP-1771945200000",
+          "asset": "XRP",
+          "signal": "BUY_UP",
+          "entryPrice": 0.68,
+          "confidence": 0.7130460046593841,
+          "edge": 0.18800116214331664,
+          "createdAt": "2026-02-24T15:02:03.708Z"
+        },
+        {
+          "id": "SOL-1771943700000",
+          "asset": "SOL",
+          "signal": "BUY_UP",
+          "entryPrice": 0.81,
+          "confidence": 0.8358542028176505,
+          "edge": 0.1144929332961192,
+          "createdAt": "2026-02-24T14:36:03.759Z"
+        }
+      ]
+    },
+    {
+      "key": "strong_edge",
+      "label": "Strong edge",
+      "reason": "Large edge at entry time.",
+      "fix": "Bias toward stronger edge signals.",
+      "count": 4,
+      "totalPnl": 32.76271486797802,
+      "avgPnl": 8.190678716994505,
+      "strategyCounts": {
+        "core": 4
+      },
+      "assetCounts": {
+        "SOL": 1,
+        "XRP": 2,
+        "BTC": 1
+      },
+      "assetPnl": {
+        "SOL": 8.181818181818182,
+        "XRP": 17.03703703703703,
+        "BTC": 7.543859649122808
+      },
+      "assetStrategyCounts": {
+        "SOL": {
+          "core": 1
+        },
+        "XRP": {
+          "core": 2
+        },
+        "BTC": {
+          "core": 1
+        }
+      },
+      "examples": [
+        {
+          "id": "SOL-1771985100000",
+          "asset": "SOL",
+          "signal": "BUY_UP",
+          "entryPrice": 0.55,
+          "confidence": 0.3357873457045717,
+          "edge": 0.14446217902410297,
+          "createdAt": "2026-02-25T02:06:03.149Z"
+        },
+        {
+          "id": "XRP-1771956900000",
+          "asset": "XRP",
+          "signal": "BUY_UP",
+          "entryPrice": 0.54,
+          "confidence": 0.21361073441517972,
+          "edge": 0.09826093783098266,
+          "createdAt": "2026-02-24T18:17:04.216Z"
+        },
+        {
+          "id": "BTC-1771951800000",
+          "asset": "BTC",
+          "signal": "BUY_UP",
+          "entryPrice": 0.57,
+          "confidence": 0.2953255432566436,
+          "edge": 0.12698998360035685,
+          "createdAt": "2026-02-24T16:51:02.507Z"
+        }
+      ]
+    },
+    {
+      "key": "strong_move",
+      "label": "Strong move / high z-score",
+      "reason": "Underlying move was large relative to volatility.",
+      "fix": "Emphasize high z-score moves when liquidity is healthy.",
+      "count": 0,
+      "totalPnl": 0,
+      "avgPnl": 0,
+      "strategyCounts": {},
+      "assetCounts": {},
+      "assetPnl": {},
+      "assetStrategyCounts": {},
+      "examples": []
+    },
+    {
+      "key": "other",
+      "label": "Other / noise",
+      "reason": "Win not captured by a dominant heuristic.",
+      "fix": "Track these cases; may suggest new buckets or regime cues.",
+      "count": 0,
+      "totalPnl": 0,
+      "avgPnl": 0,
+      "strategyCounts": {},
+      "assetCounts": {},
+      "assetPnl": {},
+      "assetStrategyCounts": {},
+      "examples": []
     }
   ]
 }
