@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-25T12:10:04.637Z",
+  "generatedAt": "2026-02-25T12:11:06.779Z",
   "totals": {
-    "losses": 23,
+    "losses": 24,
     "wins": 68
   },
   "lossBuckets": [
@@ -149,22 +149,27 @@
       "label": "Low confidence",
       "reason": "Confidence below the higher-quality band.",
       "fix": "Raise minConfidence or increase edge threshold.",
-      "count": 2,
-      "totalPnl": -20,
+      "count": 3,
+      "totalPnl": -30,
       "avgPnl": -10,
       "strategyCounts": {
-        "core": 1,
+        "core": 2,
         "momentum": 1
       },
       "assetCounts": {
+        "ETH": 1,
         "XRP": 1,
         "BTC": 1
       },
       "assetPnl": {
+        "ETH": -10,
         "XRP": -10,
         "BTC": -10
       },
       "assetStrategyCounts": {
+        "ETH": {
+          "core": 1
+        },
         "XRP": {
           "core": 1
         },
@@ -173,6 +178,15 @@
         }
       },
       "examples": [
+        {
+          "id": "ETH-1772021100000",
+          "asset": "ETH",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.51,
+          "confidence": 0.26121217896356236,
+          "edge": 0.15015760232323871,
+          "createdAt": "2026-02-25T12:07:03.045Z"
+        },
         {
           "id": "XRP-1772011500000",
           "asset": "XRP",
