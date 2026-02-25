@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-25T01:05:04.699Z",
-  "totalLosses": 13,
+  "generatedAt": "2026-02-25T01:06:07.360Z",
+  "totalLosses": 15,
   "buckets": [
     {
       "key": "counter_momentum",
@@ -55,29 +55,29 @@
       "label": "High entry price (expensive contracts)",
       "reason": "Entry price was high, reducing payout asymmetry.",
       "fix": "Tighten maxEntryPrice or require stronger edge before paying up.",
-      "count": 6,
-      "totalLoss": -60,
+      "count": 8,
+      "totalLoss": -80,
       "avgLoss": -10,
       "strategyCounts": {
-        "core": 3,
-        "momentum": 3
+        "core": 4,
+        "momentum": 4
       },
       "assetCounts": {
+        "BTC": 4,
         "ETH": 2,
-        "BTC": 2,
         "SOL": 2
       },
       "assetLoss": {
+        "BTC": -40,
         "ETH": -20,
-        "BTC": -20,
         "SOL": -20
       },
       "assetStrategyCounts": {
-        "ETH": {
-          "core": 1,
-          "momentum": 1
-        },
         "BTC": {
+          "core": 2,
+          "momentum": 2
+        },
+        "ETH": {
           "core": 1,
           "momentum": 1
         },
@@ -87,6 +87,15 @@
         }
       },
       "examples": [
+        {
+          "id": "BTC-1771981200000",
+          "asset": "BTC",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.72,
+          "confidence": 0.4926423192309606,
+          "edge": 0.06183619726931311,
+          "createdAt": "2026-02-25T01:01:02.558Z"
+        },
         {
           "id": "ETH-1771956000000",
           "asset": "ETH",
@@ -104,15 +113,6 @@
           "confidence": 0.34862092566447433,
           "edge": 0.099906998035724,
           "createdAt": "2026-02-24T15:01:02.315Z"
-        },
-        {
-          "id": "SOL-1771940400000",
-          "asset": "SOL",
-          "signal": "BUY_UP",
-          "entryPrice": 0.68,
-          "confidence": 0.7950271444828458,
-          "edge": 0.22571248646210906,
-          "createdAt": "2026-02-24T13:43:03.127Z"
         }
       ]
     },
