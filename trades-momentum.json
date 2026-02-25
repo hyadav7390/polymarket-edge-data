@@ -1,1 +1,48 @@
-[]
+[
+  {
+    "id": "ETH-1772017800000",
+    "createdAt": "2026-02-25T11:12:05.478Z",
+    "asset": "ETH",
+    "strategy": "momentum",
+    "windowMinutes": 5,
+    "binanceSymbol": "ETHUSDT",
+    "marketSlug": "eth-updown-5m-1772017800",
+    "conditionId": "0xe6b5aea0fa53be08b7e741b643f1d4698404a6e7d0d1e8349e77eaf0b91c3e5a",
+    "questionId": "0x504e9f72396f4ab02b7063fa738de5cdf01adaf12b5821cb158fb936d77cb2ed",
+    "clobTokenId": "50402064157621013987939325807732963293902623956121780006344626224082071830015",
+    "openTime": 1772017800000,
+    "closeTime": 1772018100000,
+    "signal": "BUY_UP",
+    "edgeUp": 0.21057750439204315,
+    "edgeDown": -0.20057750439204314,
+    "r_t": 0.0015248599165503937,
+    "z": 0.8541521829037644,
+    "pUp": 0.8105775043920431,
+    "pDown": 0.18942249560795688,
+    "impliedUp": 0.6,
+    "impliedDown": 0.39,
+    "entryPrice": 0.6,
+    "stake": 10,
+    "confidence": 0.5694943281637344,
+    "confidenceRaw": 0.8105775043920431,
+    "refPrice": 1917.85,
+    "refSources": {
+      "binance": 1918.21,
+      "coinbase": 1917.805,
+      "kraken": 1917.85
+    },
+    "refOpenPrice": 1914.93,
+    "momentum5m": 0.004078405913950328,
+    "status": "open",
+    "result": null,
+    "outcome": null,
+    "openPrice": null,
+    "closePrice": null,
+    "pnl": null,
+    "liveOrder": {
+      "ok": true,
+      "skipped": true,
+      "reason": "live_not_enabled"
+    }
+  }
+]
