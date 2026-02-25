@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-25T05:45:04.232Z",
+  "generatedAt": "2026-02-25T05:46:07.050Z",
   "totals": {
-    "losses": 18,
-    "wins": 60
+    "losses": 20,
+    "wins": 62
   },
   "lossBuckets": [
     {
@@ -77,31 +77,31 @@
       "label": "High entry price (expensive contracts)",
       "reason": "Entry price was high, reducing payout asymmetry.",
       "fix": "Tighten maxEntryPrice or require stronger edge before paying up.",
-      "count": 8,
-      "totalPnl": -80,
+      "count": 10,
+      "totalPnl": -100,
       "avgPnl": -10,
       "strategyCounts": {
-        "core": 4,
-        "momentum": 4
+        "core": 5,
+        "momentum": 5
       },
       "assetCounts": {
+        "ETH": 4,
         "BTC": 4,
-        "ETH": 2,
         "SOL": 2
       },
       "assetPnl": {
+        "ETH": -40,
         "BTC": -40,
-        "ETH": -20,
         "SOL": -20
       },
       "assetStrategyCounts": {
-        "BTC": {
+        "ETH": {
           "core": 2,
           "momentum": 2
         },
-        "ETH": {
-          "core": 1,
-          "momentum": 1
+        "BTC": {
+          "core": 2,
+          "momentum": 2
         },
         "SOL": {
           "core": 1,
@@ -109,6 +109,15 @@
         }
       },
       "examples": [
+        {
+          "id": "ETH-1771998000000",
+          "asset": "ETH",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.65,
+          "confidence": 0.5532167000418292,
+          "edge": 0.14447968201924144,
+          "createdAt": "2026-02-25T05:42:03.840Z"
+        },
         {
           "id": "BTC-1771981200000",
           "asset": "BTC",
@@ -126,15 +135,6 @@
           "confidence": 0.4984991776591163,
           "edge": 0.09930962172319346,
           "createdAt": "2026-02-24T18:01:03.115Z"
-        },
-        {
-          "id": "BTC-1771945200000",
-          "asset": "BTC",
-          "signal": "BUY_DOWN",
-          "entryPrice": 0.62,
-          "confidence": 0.34862092566447433,
-          "edge": 0.099906998035724,
-          "createdAt": "2026-02-24T15:01:02.315Z"
         }
       ]
     },
@@ -281,33 +281,33 @@
       "label": "Momentum-aligned wins",
       "reason": "Signal moved with the 5m momentum direction.",
       "fix": "Prioritize momentum alignment for higher conviction entries.",
-      "count": 51,
-      "totalPnl": 259.78055489216433,
-      "avgPnl": 5.093736370434595,
+      "count": 53,
+      "totalPnl": 268.3519834635929,
+      "avgPnl": 5.063244971011186,
       "strategyCounts": {
-        "core": 28,
-        "momentum": 23
+        "core": 29,
+        "momentum": 24
       },
       "assetCounts": {
+        "BTC": 12,
         "ETH": 16,
-        "BTC": 10,
         "SOL": 18,
         "XRP": 7
       },
       "assetPnl": {
+        "BTC": 84.23657698608633,
         "ETH": 73.51280361521958,
-        "BTC": 75.66514841465776,
         "SOL": 74.50582859468278,
         "XRP": 36.09677426760423
       },
       "assetStrategyCounts": {
+        "BTC": {
+          "core": 7,
+          "momentum": 5
+        },
         "ETH": {
           "core": 9,
           "momentum": 7
-        },
-        "BTC": {
-          "core": 6,
-          "momentum": 4
         },
         "SOL": {
           "core": 9,
@@ -319,6 +319,15 @@
         }
       },
       "examples": [
+        {
+          "id": "BTC-1771998000000",
+          "asset": "BTC",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.7,
+          "confidence": 0.46779472198722244,
+          "edge": 0.07115173045450573,
+          "createdAt": "2026-02-25T05:41:02.366Z"
+        },
         {
           "id": "ETH-1771985400000",
           "asset": "ETH",
@@ -336,15 +345,6 @@
           "confidence": 0.3256866495629154,
           "edge": 0.10004525931205366,
           "createdAt": "2026-02-25T01:41:02.504Z"
-        },
-        {
-          "id": "SOL-1771983600000",
-          "asset": "SOL",
-          "signal": "BUY_DOWN",
-          "entryPrice": 0.74,
-          "confidence": 0.581575187282091,
-          "edge": 0.06752458614976187,
-          "createdAt": "2026-02-25T01:42:03.184Z"
         }
       ]
     },
