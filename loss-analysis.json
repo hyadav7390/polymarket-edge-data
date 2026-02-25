@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-25T07:15:18.516Z",
+  "generatedAt": "2026-02-25T07:17:08.890Z",
   "totals": {
-    "losses": 20,
+    "losses": 22,
     "wins": 62
   },
   "lossBuckets": [
@@ -77,24 +77,30 @@
       "label": "High entry price (expensive contracts)",
       "reason": "Entry price was high, reducing payout asymmetry.",
       "fix": "Tighten maxEntryPrice or require stronger edge before paying up.",
-      "count": 10,
-      "totalPnl": -100,
+      "count": 12,
+      "totalPnl": -120,
       "avgPnl": -10,
       "strategyCounts": {
-        "core": 5,
-        "momentum": 5
+        "core": 6,
+        "momentum": 6
       },
       "assetCounts": {
+        "XRP": 2,
         "ETH": 4,
         "BTC": 4,
         "SOL": 2
       },
       "assetPnl": {
+        "XRP": -20,
         "ETH": -40,
         "BTC": -40,
         "SOL": -20
       },
       "assetStrategyCounts": {
+        "XRP": {
+          "core": 1,
+          "momentum": 1
+        },
         "ETH": {
           "core": 2,
           "momentum": 2
@@ -109,6 +115,15 @@
         }
       },
       "examples": [
+        {
+          "id": "XRP-1772003400000",
+          "asset": "XRP",
+          "signal": "BUY_UP",
+          "entryPrice": 0.68,
+          "confidence": 0.5136235266788668,
+          "edge": 0.09626682227227867,
+          "createdAt": "2026-02-25T07:13:08.401Z"
+        },
         {
           "id": "ETH-1771998000000",
           "asset": "ETH",
@@ -126,15 +141,6 @@
           "confidence": 0.4926423192309606,
           "edge": 0.06183619726931311,
           "createdAt": "2026-02-25T01:01:02.558Z"
-        },
-        {
-          "id": "ETH-1771956000000",
-          "asset": "ETH",
-          "signal": "BUY_UP",
-          "entryPrice": 0.67,
-          "confidence": 0.4984991776591163,
-          "edge": 0.09930962172319346,
-          "createdAt": "2026-02-24T18:01:03.115Z"
         }
       ]
     },
