@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-25T13:50:05.133Z",
+  "generatedAt": "2026-02-25T13:51:09.898Z",
   "totals": {
     "losses": 30,
-    "wins": 78
+    "wins": 80
   },
   "lossBuckets": [
     {
@@ -321,33 +321,33 @@
       "label": "Momentum-aligned wins",
       "reason": "Signal moved with the 5m momentum direction.",
       "fix": "Prioritize momentum alignment for higher conviction entries.",
-      "count": 65,
-      "totalPnl": 706.3461841914935,
-      "avgPnl": 10.866864372176824,
+      "count": 67,
+      "totalPnl": 714.5151982760005,
+      "avgPnl": 10.664405944417918,
       "strategyCounts": {
-        "core": 36,
-        "momentum": 29
+        "core": 37,
+        "momentum": 30
       },
       "assetCounts": {
+        "XRP": 11,
         "SOL": 22,
-        "XRP": 9,
         "BTC": 13,
         "ETH": 21
       },
       "assetPnl": {
+        "XRP": 59.35350765035689,
         "SOL": 464.3565748633394,
-        "XRP": 51.18449356584985,
         "BTC": 89.38809213760149,
         "ETH": 101.41702362470275
       },
       "assetStrategyCounts": {
+        "XRP": {
+          "core": 6,
+          "momentum": 5
+        },
         "SOL": {
           "core": 11,
           "momentum": 11
-        },
-        "XRP": {
-          "core": 5,
-          "momentum": 4
         },
         "BTC": {
           "core": 8,
@@ -359,6 +359,15 @@
         }
       },
       "examples": [
+        {
+          "id": "XRP-1772027100000",
+          "asset": "XRP",
+          "signal": "BUY_UP",
+          "entryPrice": 0.71,
+          "confidence": 0.5477628060555771,
+          "edge": 0.08197089078556552,
+          "createdAt": "2026-02-25T13:46:04.451Z"
+        },
         {
           "id": "SOL-1772025300000",
           "asset": "SOL",
@@ -376,15 +385,6 @@
           "confidence": 0.30646508692165125,
           "edge": 0.11097393998395966,
           "createdAt": "2026-02-25T13:12:05.452Z"
-        },
-        {
-          "id": "BTC-1772024400000",
-          "asset": "BTC",
-          "signal": "BUY_UP",
-          "entryPrice": 0.66,
-          "confidence": 0.40171373833029766,
-          "edge": 0.082736907482028,
-          "createdAt": "2026-02-25T13:01:03.514Z"
         }
       ]
     },
