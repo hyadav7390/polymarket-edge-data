@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-25T15:50:05.012Z",
+  "generatedAt": "2026-02-25T15:51:15.561Z",
   "totals": {
-    "losses": 36,
+    "losses": 38,
     "wins": 83
   },
   "lossBuckets": [
@@ -149,32 +149,33 @@
       "label": "Low confidence",
       "reason": "Confidence below the higher-quality band.",
       "fix": "Raise minConfidence or increase edge threshold.",
-      "count": 5,
-      "totalPnl": -50,
+      "count": 7,
+      "totalPnl": -70,
       "avgPnl": -10,
       "strategyCounts": {
-        "core": 3,
-        "momentum": 2
+        "core": 4,
+        "momentum": 3
       },
       "assetCounts": {
+        "ETH": 3,
         "SOL": 2,
-        "ETH": 1,
         "XRP": 1,
         "BTC": 1
       },
       "assetPnl": {
+        "ETH": -30,
         "SOL": -20,
-        "ETH": -10,
         "XRP": -10,
         "BTC": -10
       },
       "assetStrategyCounts": {
+        "ETH": {
+          "core": 2,
+          "momentum": 1
+        },
         "SOL": {
           "core": 1,
           "momentum": 1
-        },
-        "ETH": {
-          "core": 1
         },
         "XRP": {
           "core": 1
@@ -184,6 +185,15 @@
         }
       },
       "examples": [
+        {
+          "id": "ETH-1772034300000",
+          "asset": "ETH",
+          "signal": "BUY_UP",
+          "entryPrice": 0.57,
+          "confidence": 0.260853647593029,
+          "edge": 0.08999267789279342,
+          "createdAt": "2026-02-25T15:46:04.145Z"
+        },
         {
           "id": "SOL-1772031000000",
           "asset": "SOL",
@@ -201,15 +211,6 @@
           "confidence": 0.26121217896356236,
           "edge": 0.15015760232323871,
           "createdAt": "2026-02-25T12:07:03.045Z"
-        },
-        {
-          "id": "XRP-1772011500000",
-          "asset": "XRP",
-          "signal": "BUY_DOWN",
-          "entryPrice": 0.53,
-          "confidence": 0.2028407621373091,
-          "edge": 0.10330675058316219,
-          "createdAt": "2026-02-25T09:26:04.562Z"
         }
       ]
     },
