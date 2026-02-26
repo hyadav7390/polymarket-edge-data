@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-26T01:50:05.555Z",
+  "generatedAt": "2026-02-26T01:51:07.995Z",
   "totals": {
     "losses": 66,
-    "wins": 133
+    "wins": 136
   },
   "lossBuckets": [
     {
@@ -419,14 +419,62 @@
       "label": "Low entry price (cheap contracts)",
       "reason": "Lower entry price improved payout asymmetry.",
       "fix": "Keep maxEntryPrice conservative to preserve payoff skew.",
-      "count": 0,
-      "totalPnl": 0,
-      "avgPnl": 0,
-      "strategyCounts": {},
-      "assetCounts": {},
-      "assetPnl": {},
-      "assetStrategyCounts": {},
-      "examples": []
+      "count": 3,
+      "totalPnl": 84.52702702702703,
+      "avgPnl": 28.175675675675677,
+      "strategyCounts": {
+        "core": 3
+      },
+      "assetCounts": {
+        "ETH": 1,
+        "SOL": 1,
+        "XRP": 1
+      },
+      "assetPnl": {
+        "ETH": 17.027027027027025,
+        "SOL": 15,
+        "XRP": 52.5
+      },
+      "assetStrategyCounts": {
+        "ETH": {
+          "core": 1
+        },
+        "SOL": {
+          "core": 1
+        },
+        "XRP": {
+          "core": 1
+        }
+      },
+      "examples": [
+        {
+          "id": "ETH-1772070300000",
+          "asset": "ETH",
+          "signal": "BUY_UP",
+          "entryPrice": 0.37,
+          "confidence": 0.6937614527447881,
+          "edge": 0.48913026826260253,
+          "createdAt": "2026-02-26T01:48:04.107Z"
+        },
+        {
+          "id": "SOL-1772070300000",
+          "asset": "SOL",
+          "signal": "BUY_UP",
+          "entryPrice": 0.4,
+          "confidence": 0.42738902059734635,
+          "edge": 0.3365989494747793,
+          "createdAt": "2026-02-26T01:48:04.720Z"
+        },
+        {
+          "id": "XRP-1772070300000",
+          "asset": "XRP",
+          "signal": "BUY_UP",
+          "entryPrice": 0.16,
+          "confidence": 0.34937892988885744,
+          "edge": 0.5407143077488744,
+          "createdAt": "2026-02-26T01:49:05.733Z"
+        }
+      ]
     },
     {
       "key": "high_confidence",
