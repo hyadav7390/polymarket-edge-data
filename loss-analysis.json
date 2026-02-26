@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-26T02:50:05.715Z",
+  "generatedAt": "2026-02-26T02:51:08.135Z",
   "totals": {
     "losses": 66,
-    "wins": 138
+    "wins": 139
   },
   "lossBuckets": [
     {
@@ -419,27 +419,27 @@
       "label": "Low entry price (cheap contracts)",
       "reason": "Lower entry price improved payout asymmetry.",
       "fix": "Keep maxEntryPrice conservative to preserve payoff skew.",
-      "count": 3,
-      "totalPnl": 84.52702702702703,
-      "avgPnl": 28.175675675675677,
+      "count": 4,
+      "totalPnl": 96.26615746180963,
+      "avgPnl": 24.066539365452407,
       "strategyCounts": {
-        "core": 3
+        "core": 4
       },
       "assetCounts": {
+        "SOL": 2,
         "ETH": 1,
-        "SOL": 1,
         "XRP": 1
       },
       "assetPnl": {
+        "SOL": 26.73913043478261,
         "ETH": 17.027027027027025,
-        "SOL": 15,
         "XRP": 52.5
       },
       "assetStrategyCounts": {
-        "ETH": {
-          "core": 1
-        },
         "SOL": {
+          "core": 2
+        },
+        "ETH": {
           "core": 1
         },
         "XRP": {
@@ -447,6 +447,15 @@
         }
       },
       "examples": [
+        {
+          "id": "SOL-1772073900000",
+          "asset": "SOL",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.46,
+          "confidence": 0.21798750699138192,
+          "edge": 0.18027425321603568,
+          "createdAt": "2026-02-26T02:48:05.534Z"
+        },
         {
           "id": "ETH-1772070300000",
           "asset": "ETH",
@@ -464,15 +473,6 @@
           "confidence": 0.42738902059734635,
           "edge": 0.3365989494747793,
           "createdAt": "2026-02-26T01:48:04.720Z"
-        },
-        {
-          "id": "XRP-1772070300000",
-          "asset": "XRP",
-          "signal": "BUY_UP",
-          "entryPrice": 0.16,
-          "confidence": 0.34937892988885744,
-          "edge": 0.5407143077488744,
-          "createdAt": "2026-02-26T01:49:05.733Z"
         }
       ]
     },
