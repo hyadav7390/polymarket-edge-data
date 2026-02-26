@@ -80,11 +80,11 @@
     "refOpenPrice": 2046.765,
     "momentum5m": -0.0019130629993119183,
     "status": "resolved",
-    "result": "win",
-    "outcome": "DOWN",
+    "result": "loss",
+    "outcome": "UP",
     "openPrice": 2046.765,
     "closePrice": 2046.02,
-    "pnl": 9.23076923076923,
+    "pnl": -10,
     "liveOrder": {
       "ok": true,
       "skipped": true,
@@ -264,11 +264,11 @@
     "refOpenPrice": 88.97,
     "momentum5m": 0.0021372328458942377,
     "status": "resolved",
-    "result": "win",
-    "outcome": "UP",
+    "result": "loss",
+    "outcome": "DOWN",
     "openPrice": 88.97,
     "closePrice": 88.97,
-    "pnl": 10.408163265306122,
+    "pnl": -10,
     "liveOrder": {
       "ok": true,
       "skipped": true,
@@ -310,11 +310,11 @@
     "refOpenPrice": 2062.4,
     "momentum5m": 0.004371146057576593,
     "status": "resolved",
-    "result": "win",
-    "outcome": "UP",
+    "result": "loss",
+    "outcome": "DOWN",
     "openPrice": 2062.4,
     "closePrice": 2062.9,
-    "pnl": 10,
+    "pnl": -10,
     "liveOrder": {
       "ok": true,
       "skipped": true,
@@ -356,11 +356,11 @@
     "refOpenPrice": 88.61,
     "momentum5m": 0.001919385796545125,
     "status": "resolved",
-    "result": "win",
-    "outcome": "UP",
+    "result": "loss",
+    "outcome": "DOWN",
     "openPrice": 88.61,
     "closePrice": 88.66,
-    "pnl": 13.255813953488374,
+    "pnl": -10,
     "liveOrder": {
       "ok": true,
       "skipped": true,
@@ -1322,11 +1322,11 @@
     "refOpenPrice": 66883.15,
     "momentum5m": 0.0017420706086969104,
     "status": "resolved",
-    "result": "loss",
-    "outcome": "DOWN",
+    "result": "win",
+    "outcome": "UP",
     "openPrice": 66883.15,
     "closePrice": 66828.6,
-    "pnl": -10,
+    "pnl": 10,
     "liveOrder": {
       "ok": true,
       "skipped": true,
@@ -1733,11 +1733,11 @@
     "refOpenPrice": 81.99,
     "momentum5m": 0.0023173557750946695,
     "status": "resolved",
-    "result": "win",
-    "outcome": "UP",
+    "result": "loss",
+    "outcome": "DOWN",
     "openPrice": 81.99,
     "closePrice": 82.125,
-    "pnl": 190
+    "pnl": -10
   },
   {
     "id": "XRP-1772003400000",
@@ -1961,11 +1961,11 @@
     "refOpenPrice": 66075.8,
     "momentum5m": -0.003132732320836666,
     "status": "resolved",
-    "result": "win",
-    "outcome": "DOWN",
+    "result": "loss",
+    "outcome": "UP",
     "openPrice": 66075.8,
     "closePrice": 65998.85,
-    "pnl": 15.641025641025639
+    "pnl": -10
   },
   {
     "id": "ETH-1771982700000",
@@ -2037,11 +2037,11 @@
     "refOpenPrice": 82.04,
     "momentum5m": 0.0035404712489318308,
     "status": "resolved",
-    "result": "win",
-    "outcome": "UP",
+    "result": "loss",
+    "outcome": "DOWN",
     "openPrice": 82.04,
     "closePrice": 82.14,
-    "pnl": 2.5
+    "pnl": -10
   },
   {
     "id": "BTC-1771981200000",
@@ -2569,11 +2569,11 @@
     "refOpenPrice": 63429.8,
     "momentum5m": -0.0025542683665744264,
     "status": "resolved",
-    "result": "loss",
-    "outcome": "UP",
+    "result": "win",
+    "outcome": "DOWN",
     "openPrice": 63429.8,
     "closePrice": 63451.7,
-    "pnl": -10
+    "pnl": 6.129032258064518
   },
   {
     "id": "ETH-1771945200000",
@@ -2759,11 +2759,11 @@
     "refOpenPrice": 77.04,
     "momentum5m": 0.0037726030961362303,
     "status": "resolved",
-    "result": "win",
-    "outcome": "UP",
+    "result": "loss",
+    "outcome": "DOWN",
     "openPrice": 77.04,
     "closePrice": 77.17,
-    "pnl": 12.222222222222223
+    "pnl": -10
   },
   {
     "id": "ETH-1771944000000",
