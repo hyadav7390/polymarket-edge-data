@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-26T04:50:08.819Z",
+  "generatedAt": "2026-02-26T04:51:08.043Z",
   "totals": {
     "losses": 68,
-    "wins": 140
+    "wins": 141
   },
   "lossBuckets": [
     {
@@ -348,26 +348,30 @@
       "label": "Momentum-aligned wins",
       "reason": "Signal moved with the 5m momentum direction.",
       "fix": "Prioritize momentum alignment for higher conviction entries.",
-      "count": 112,
-      "totalPnl": 1025.8609251923212,
-      "avgPnl": 9.15947254636001,
+      "count": 113,
+      "totalPnl": 1039.1167391458098,
+      "avgPnl": 9.195723355272653,
       "strategyCounts": {
-        "core": 63,
+        "core": 64,
         "momentum": 49
       },
       "assetCounts": {
+        "XRP": 22,
         "SOL": 35,
         "ETH": 36,
-        "XRP": 21,
         "BTC": 20
       },
       "assetPnl": {
+        "XRP": 139.73093497415869,
         "SOL": 569.7253382572303,
         "ETH": 191.14631566654654,
-        "XRP": 126.47512102067029,
         "BTC": 138.51415024787374
       },
       "assetStrategyCounts": {
+        "XRP": {
+          "core": 13,
+          "momentum": 9
+        },
         "SOL": {
           "core": 18,
           "momentum": 17
@@ -376,16 +380,21 @@
           "core": 21,
           "momentum": 15
         },
-        "XRP": {
-          "core": 12,
-          "momentum": 9
-        },
         "BTC": {
           "core": 12,
           "momentum": 8
         }
       },
       "examples": [
+        {
+          "id": "XRP-1772081100000",
+          "asset": "XRP",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.43,
+          "confidence": 0.2265179601966396,
+          "edge": 0.21419826169045425,
+          "createdAt": "2026-02-26T04:48:06.895Z"
+        },
         {
           "id": "SOL-1772080800000",
           "asset": "SOL",
@@ -403,15 +412,6 @@
           "confidence": 0.23616459563711628,
           "edge": 0.1286357139930735,
           "createdAt": "2026-02-26T02:26:07.045Z"
-        },
-        {
-          "id": "SOL-1772065500000",
-          "asset": "SOL",
-          "signal": "BUY_UP",
-          "entryPrice": 0.49,
-          "confidence": 0.40121048258602277,
-          "edge": 0.2345568219895705,
-          "createdAt": "2026-02-26T00:26:09.103Z"
         }
       ]
     },
