@@ -1,0 +1,122 @@
+[
+  {
+    "strategy": "core",
+    "asset": "BTC",
+    "state": "PAPER_TRACKING",
+    "resolved": 25,
+    "winRate": 0.68,
+    "avgPnl": 1.1447410856490747,
+    "maxDrawdown": 30,
+    "medianNetEdge": 0.11698998360035685,
+    "lastUpdated": "2026-02-26T11:35:14.427Z",
+    "promoteChecks": {
+      "resolved": false,
+      "winRate": true,
+      "avgPnl": true,
+      "maxDrawdown": true,
+      "medianNetEdge": true
+    },
+    "demoteChecks": {
+      "recentSample": true,
+      "winRate": false,
+      "avgPnl": false,
+      "losingStreak": false
+    },
+    "cooldownExitChecks": {
+      "sample": false,
+      "avgPnl": false,
+      "winRate": false
+    },
+    "cooldownEnteredAt": null
+  },
+  {
+    "strategy": "core",
+    "asset": "XRP",
+    "state": "PAPER_TRACKING",
+    "resolved": 31,
+    "winRate": 0.5161290322580645,
+    "avgPnl": -1.0634400586182866,
+    "maxDrawdown": 52.3982359598798,
+    "medianNetEdge": 0.11697290888684354,
+    "lastUpdated": "2026-02-26T11:35:14.427Z",
+    "promoteChecks": {
+      "resolved": false,
+      "winRate": false,
+      "avgPnl": false,
+      "maxDrawdown": false,
+      "medianNetEdge": true
+    },
+    "demoteChecks": {
+      "recentSample": true,
+      "winRate": false,
+      "avgPnl": false,
+      "losingStreak": false
+    },
+    "cooldownExitChecks": {
+      "sample": false,
+      "avgPnl": false,
+      "winRate": false
+    },
+    "cooldownEnteredAt": null
+  },
+  {
+    "strategy": "momentum",
+    "asset": "BTC",
+    "state": "PAPER_TRACKING",
+    "resolved": 13,
+    "winRate": 0.6923076923076923,
+    "avgPnl": 1.0848570521148564,
+    "maxDrawdown": 25.714285714285715,
+    "medianNetEdge": 0.09004525931205366,
+    "lastUpdated": "2026-02-26T11:35:14.427Z",
+    "promoteChecks": {
+      "resolved": false,
+      "winRate": true,
+      "avgPnl": true,
+      "maxDrawdown": true,
+      "medianNetEdge": true
+    },
+    "demoteChecks": {
+      "recentSample": true,
+      "winRate": false,
+      "avgPnl": false,
+      "losingStreak": false
+    },
+    "cooldownExitChecks": {
+      "sample": false,
+      "avgPnl": false,
+      "winRate": false
+    },
+    "cooldownEnteredAt": null
+  },
+  {
+    "strategy": "momentum",
+    "asset": "XRP",
+    "state": "PAPER_TRACKING",
+    "resolved": 12,
+    "winRate": 0.75,
+    "avgPnl": 1.4930360008483963,
+    "maxDrawdown": 20,
+    "medianNetEdge": 0.0791188565289221,
+    "lastUpdated": "2026-02-26T11:35:14.427Z",
+    "promoteChecks": {
+      "resolved": false,
+      "winRate": true,
+      "avgPnl": true,
+      "maxDrawdown": true,
+      "medianNetEdge": true
+    },
+    "demoteChecks": {
+      "recentSample": true,
+      "winRate": false,
+      "avgPnl": false,
+      "losingStreak": false
+    },
+    "cooldownExitChecks": {
+      "sample": false,
+      "avgPnl": false,
+      "winRate": false
+    },
+    "cooldownEnteredAt": null
+  }
+]
