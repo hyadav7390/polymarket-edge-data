@@ -8,7 +8,7 @@
     "avgPnl": 1.1447410856490747,
     "maxDrawdown": 30,
     "medianNetEdge": 0.11698998360035685,
-    "lastUpdated": "2026-02-26T11:35:14.427Z",
+    "lastUpdated": "2026-02-26T11:36:56.879Z",
     "promoteChecks": {
       "resolved": false,
       "winRate": true,
@@ -38,7 +38,7 @@
     "avgPnl": -1.0634400586182866,
     "maxDrawdown": 52.3982359598798,
     "medianNetEdge": 0.11697290888684354,
-    "lastUpdated": "2026-02-26T11:35:14.427Z",
+    "lastUpdated": "2026-02-26T11:36:56.879Z",
     "promoteChecks": {
       "resolved": false,
       "winRate": false,
@@ -68,7 +68,7 @@
     "avgPnl": 1.0848570521148564,
     "maxDrawdown": 25.714285714285715,
     "medianNetEdge": 0.09004525931205366,
-    "lastUpdated": "2026-02-26T11:35:14.427Z",
+    "lastUpdated": "2026-02-26T11:36:56.879Z",
     "promoteChecks": {
       "resolved": false,
       "winRate": true,
@@ -98,7 +98,7 @@
     "avgPnl": 1.4930360008483963,
     "maxDrawdown": 20,
     "medianNetEdge": 0.0791188565289221,
-    "lastUpdated": "2026-02-26T11:35:14.427Z",
+    "lastUpdated": "2026-02-26T11:36:56.879Z",
     "promoteChecks": {
       "resolved": false,
       "winRate": true,
