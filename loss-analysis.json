@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-26T00:40:04.905Z",
+  "generatedAt": "2026-02-26T00:41:10.515Z",
   "totals": {
     "losses": 59,
-    "wins": 132
+    "wins": 133
   },
   "lossBuckets": [
     {
@@ -576,29 +576,38 @@
       "label": "Other / noise",
       "reason": "Win not captured by a dominant heuristic.",
       "fix": "Track these cases; may suggest new buckets or regime cues.",
-      "count": 3,
-      "totalPnl": 17.924297924297925,
-      "avgPnl": 5.974765974765975,
+      "count": 4,
+      "totalPnl": 23.54929792429792,
+      "avgPnl": 5.88732448107448,
       "strategyCounts": {
-        "core": 3
+        "core": 4
       },
       "assetCounts": {
-        "SOL": 2,
+        "SOL": 3,
         "BTC": 1
       },
       "assetPnl": {
-        "SOL": 12.53968253968254,
+        "SOL": 18.164682539682538,
         "BTC": 5.384615384615383
       },
       "assetStrategyCounts": {
         "SOL": {
-          "core": 2
+          "core": 3
         },
         "BTC": {
           "core": 1
         }
       },
       "examples": [
+        {
+          "id": "SOL-1772066100000",
+          "asset": "SOL",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.64,
+          "confidence": 0.32437009672742506,
+          "edge": 0.04921024449461553,
+          "createdAt": "2026-02-26T00:36:03.845Z"
+        },
         {
           "id": "SOL-1772042400000",
           "asset": "SOL",
@@ -616,15 +625,6 @@
           "confidence": 0.2990644634242515,
           "edge": 0.048597719272428175,
           "createdAt": "2026-02-25T17:26:02.593Z"
-        },
-        {
-          "id": "SOL-1772022300000",
-          "asset": "SOL",
-          "signal": "BUY_UP",
-          "entryPrice": 0.6,
-          "confidence": 0.23847959308612868,
-          "edge": 0.04970061281961924,
-          "createdAt": "2026-02-25T12:28:05.331Z"
         }
       ]
     }
