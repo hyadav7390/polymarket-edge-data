@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-02-26T11:35:14.437Z",
+  "summary": {
+    "totalWindows": 2,
+    "selectedCount": 0,
+    "rejectedCount": 4,
+    "rejectedByReason": {
+      "signal_not_allowed": 4
+    }
+  },
+  "byAsset": {
+    "BTC": {
+      "selectedCount": 0,
+      "rejectedCount": 2,
+      "rejectedByReason": {
+        "signal_not_allowed": 2
+      },
+      "avgSelectedScore": null
+    },
+    "XRP": {
+      "selectedCount": 0,
+      "rejectedCount": 2,
+      "rejectedByReason": {
+        "signal_not_allowed": 2
+      },
+      "avgSelectedScore": null
+    }
+  },
+  "topRejectReasons": [
+    {
+      "reason": "signal_not_allowed",
+      "count": 4
+    }
+  ]
+}
