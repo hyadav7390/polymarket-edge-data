@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-26T09:20:05.973Z",
+  "generatedAt": "2026-02-26T09:21:10.479Z",
   "totals": {
     "losses": 68,
-    "wins": 143
+    "wins": 144
   },
   "lossBuckets": [
     {
@@ -482,30 +482,30 @@
       "label": "High confidence",
       "reason": "Confidence was in the top band.",
       "fix": "Scale up entries that clear the high-confidence band.",
-      "count": 13,
-      "totalPnl": 62.531236820734115,
-      "avgPnl": 4.81009514005647,
+      "count": 14,
+      "totalPnl": 67.2371191736753,
+      "avgPnl": 4.802651369548236,
       "strategyCounts": {
-        "core": 13
+        "core": 14
       },
       "assetCounts": {
+        "ETH": 9,
         "BTC": 2,
-        "ETH": 8,
         "SOL": 2,
         "XRP": 1
       },
       "assetPnl": {
+        "ETH": 44.95715437102979,
         "BTC": 10.303030303030303,
-        "ETH": 40.25127201808861,
         "SOL": 7.271052146674036,
         "XRP": 4.705882352941176
       },
       "assetStrategyCounts": {
+        "ETH": {
+          "core": 9
+        },
         "BTC": {
           "core": 2
-        },
-        "ETH": {
-          "core": 8
         },
         "SOL": {
           "core": 2
@@ -515,6 +515,15 @@
         }
       },
       "examples": [
+        {
+          "id": "ETH-1772097300000",
+          "asset": "ETH",
+          "signal": "BUY_DOWN",
+          "entryPrice": 0.68,
+          "confidence": 0.41071082195055414,
+          "edge": 0.04892697809725488,
+          "createdAt": "2026-02-26T09:17:04.712Z"
+        },
         {
           "id": "BTC-1772063100000",
           "asset": "BTC",
@@ -532,15 +541,6 @@
           "confidence": 0.4838333488498077,
           "edge": 0.1725633404709116,
           "createdAt": "2026-02-25T21:41:03.159Z"
-        },
-        {
-          "id": "ETH-1772049000000",
-          "asset": "ETH",
-          "signal": "BUY_DOWN",
-          "entryPrice": 0.68,
-          "confidence": 0.39887088801991943,
-          "edge": 0.04348060848916291,
-          "createdAt": "2026-02-25T19:52:04.229Z"
         }
       ]
     },
