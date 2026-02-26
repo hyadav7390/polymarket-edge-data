@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-26T01:10:07.698Z",
+  "generatedAt": "2026-02-26T01:11:08.166Z",
   "totals": {
-    "losses": 64,
+    "losses": 66,
     "wins": 133
   },
   "lossBuckets": [
@@ -77,26 +77,30 @@
       "label": "High entry price (expensive contracts)",
       "reason": "Entry price was high, reducing payout asymmetry.",
       "fix": "Tighten maxEntryPrice or require stronger edge before paying up.",
-      "count": 27,
-      "totalPnl": -270,
+      "count": 29,
+      "totalPnl": -290,
       "avgPnl": -10,
       "strategyCounts": {
-        "core": 16,
-        "momentum": 11
+        "core": 17,
+        "momentum": 12
       },
       "assetCounts": {
+        "XRP": 5,
         "ETH": 13,
         "SOL": 6,
-        "BTC": 5,
-        "XRP": 3
+        "BTC": 5
       },
       "assetPnl": {
+        "XRP": -50,
         "ETH": -130,
         "SOL": -60,
-        "BTC": -50,
-        "XRP": -30
+        "BTC": -50
       },
       "assetStrategyCounts": {
+        "XRP": {
+          "core": 3,
+          "momentum": 2
+        },
         "ETH": {
           "core": 7,
           "momentum": 6
@@ -108,13 +112,18 @@
         "BTC": {
           "core": 3,
           "momentum": 2
-        },
-        "XRP": {
-          "core": 2,
-          "momentum": 1
         }
       },
       "examples": [
+        {
+          "id": "XRP-1772067900000",
+          "asset": "XRP",
+          "signal": "BUY_UP",
+          "entryPrice": 0.73,
+          "confidence": 0.5170897900613373,
+          "edge": 0.04786130342821515,
+          "createdAt": "2026-02-26T01:08:06.225Z"
+        },
         {
           "id": "ETH-1772066400000",
           "asset": "ETH",
@@ -132,15 +141,6 @@
           "confidence": 0.6345752478615014,
           "edge": 0.14190461401629073,
           "createdAt": "2026-02-26T00:41:05.577Z"
-        },
-        {
-          "id": "ETH-1772057100000",
-          "asset": "ETH",
-          "signal": "BUY_DOWN",
-          "entryPrice": 0.67,
-          "confidence": 0.4153856677756179,
-          "edge": 0.061077407176784226,
-          "createdAt": "2026-02-25T22:06:03.330Z"
         }
       ]
     },
