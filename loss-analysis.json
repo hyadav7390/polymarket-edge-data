@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-02-26T05:15:06.605Z",
+  "generatedAt": "2026-02-26T05:16:07.343Z",
   "totals": {
     "losses": 68,
-    "wins": 141
+    "wins": 142
   },
   "lossBuckets": [
     {
@@ -420,34 +420,43 @@
       "label": "Low entry price (cheap contracts)",
       "reason": "Lower entry price improved payout asymmetry.",
       "fix": "Keep maxEntryPrice conservative to preserve payoff skew.",
-      "count": 4,
-      "totalPnl": 96.26615746180963,
-      "avgPnl": 24.066539365452407,
+      "count": 5,
+      "totalPnl": 111.90718310283526,
+      "avgPnl": 22.38143662056705,
       "strategyCounts": {
-        "core": 4
+        "core": 5
       },
       "assetCounts": {
+        "XRP": 2,
         "SOL": 2,
-        "ETH": 1,
-        "XRP": 1
+        "ETH": 1
       },
       "assetPnl": {
+        "XRP": 68.14102564102564,
         "SOL": 26.73913043478261,
-        "ETH": 17.027027027027025,
-        "XRP": 52.5
+        "ETH": 17.027027027027025
       },
       "assetStrategyCounts": {
+        "XRP": {
+          "core": 2
+        },
         "SOL": {
           "core": 2
         },
         "ETH": {
           "core": 1
-        },
-        "XRP": {
-          "core": 1
         }
       },
       "examples": [
+        {
+          "id": "XRP-1772082600000",
+          "asset": "XRP",
+          "signal": "BUY_UP",
+          "entryPrice": 0.39,
+          "confidence": 0.20671019376320288,
+          "edge": 0.24508668913107334,
+          "createdAt": "2026-02-26T05:13:04.658Z"
+        },
         {
           "id": "SOL-1772073900000",
           "asset": "SOL",
@@ -465,15 +474,6 @@
           "confidence": 0.6937614527447881,
           "edge": 0.48913026826260253,
           "createdAt": "2026-02-26T01:48:04.107Z"
-        },
-        {
-          "id": "SOL-1772070300000",
-          "asset": "SOL",
-          "signal": "BUY_UP",
-          "entryPrice": 0.4,
-          "confidence": 0.42738902059734635,
-          "edge": 0.3365989494747793,
-          "createdAt": "2026-02-26T01:48:04.720Z"
         }
       ]
     },
